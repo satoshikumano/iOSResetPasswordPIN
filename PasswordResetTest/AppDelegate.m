@@ -17,7 +17,13 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [Kii beginWithID:@"cd704e66" andKey:@"cff7d016bc4da4da26807b71f720c84b" andCustomURL:@"https://qa21.internal.kii.com/api"];
+    NSBundle* bundle = [NSBundle mainBundle];
+    NSString* path = [bundle pathForResource:@"kiiapp" ofType:@"plist"];
+    NSDictionary* dic = [NSDictionary dictionaryWithContentsOfFile:path];
+    NSString* appID = dic[@"app-id"];
+    NSString* appKey = dic[@"app-key"];
+    NSString* url = [NSString stringWithFormat:@"https://%@/api", dic[@"app-host"]];
+    [Kii beginWithID:appID andKey:appKey andCustomURL:url];
     [Kii setLogLevel:3];
     return YES;
 }
