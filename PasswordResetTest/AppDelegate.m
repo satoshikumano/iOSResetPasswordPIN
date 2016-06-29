@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <KiiSDK/Kii.h>
 
 @interface AppDelegate ()
 
@@ -16,7 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [Kii beginWithID:@"cd704e66" andKey:@"cff7d016bc4da4da26807b71f720c84b" andCustomURL:@"https://qa21.internal.kii.com/api"];
     return YES;
 }
 

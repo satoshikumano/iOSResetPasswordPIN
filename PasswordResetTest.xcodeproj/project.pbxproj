@@ -14,6 +14,12 @@
 		743390D01D23A8C7007064EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743390CF1D23A8C7007064EE /* Assets.xcassets */; };
 		743390D31D23A8C7007064EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743390D11D23A8C7007064EE /* LaunchScreen.storyboard */; };
 		743390DB1D23A931007064EE /* KiiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743390DA1D23A931007064EE /* KiiSDK.framework */; };
+		743390DD1D23A991007064EE /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743390DC1D23A991007064EE /* Accounts.framework */; };
+		743390DF1D23A998007064EE /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743390DE1D23A998007064EE /* ImageIO.framework */; };
+		743390E11D23A9A1007064EE /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 743390E01D23A9A1007064EE /* libsqlite3.0.tbd */; };
+		743390E31D23A9AA007064EE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743390E21D23A9AA007064EE /* MobileCoreServices.framework */; };
+		743390E51D23A9B2007064EE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743390E41D23A9B2007064EE /* Security.framework */; };
+		743390E71D23A9BB007064EE /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743390E61D23A9BB007064EE /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,12 @@
 		743390D21D23A8C7007064EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		743390D41D23A8C7007064EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		743390DA1D23A931007064EE /* KiiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KiiSDK.framework; sourceTree = "<group>"; };
+		743390DC1D23A991007064EE /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		743390DE1D23A998007064EE /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		743390E01D23A9A1007064EE /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		743390E21D23A9AA007064EE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		743390E41D23A9B2007064EE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		743390E61D23A9BB007064EE /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +47,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743390E71D23A9BB007064EE /* Social.framework in Frameworks */,
+				743390E51D23A9B2007064EE /* Security.framework in Frameworks */,
+				743390E31D23A9AA007064EE /* MobileCoreServices.framework in Frameworks */,
+				743390E11D23A9A1007064EE /* libsqlite3.0.tbd in Frameworks */,
+				743390DF1D23A998007064EE /* ImageIO.framework in Frameworks */,
+				743390DD1D23A991007064EE /* Accounts.framework in Frameworks */,
 				743390DB1D23A931007064EE /* KiiSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,6 +63,12 @@
 		743390B71D23A8C7007064EE = {
 			isa = PBXGroup;
 			children = (
+				743390E61D23A9BB007064EE /* Social.framework */,
+				743390E41D23A9B2007064EE /* Security.framework */,
+				743390E21D23A9AA007064EE /* MobileCoreServices.framework */,
+				743390E01D23A9A1007064EE /* libsqlite3.0.tbd */,
+				743390DE1D23A998007064EE /* ImageIO.framework */,
+				743390DC1D23A991007064EE /* Accounts.framework */,
 				743390C21D23A8C7007064EE /* PasswordResetTest */,
 				743390C11D23A8C7007064EE /* Products */,
 			);
