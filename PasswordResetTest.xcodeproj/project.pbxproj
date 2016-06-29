@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		743390C51D23A8C7007064EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 743390C41D23A8C7007064EE /* main.m */; };
+		743390C81D23A8C7007064EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 743390C71D23A8C7007064EE /* AppDelegate.m */; };
+		743390CB1D23A8C7007064EE /* RequestResetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 743390CA1D23A8C7007064EE /* RequestResetViewController.m */; };
+		743390CE1D23A8C7007064EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743390CC1D23A8C7007064EE /* Main.storyboard */; };
+		743390D01D23A8C7007064EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743390CF1D23A8C7007064EE /* Assets.xcassets */; };
+		743390D31D23A8C7007064EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743390D11D23A8C7007064EE /* LaunchScreen.storyboard */; };
+		743390DB1D23A931007064EE /* KiiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743390DA1D23A931007064EE /* KiiSDK.framework */; };
+		743390DD1D23A991007064EE /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743390DC1D23A991007064EE /* Accounts.framework */; };
+		743390DF1D23A998007064EE /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743390DE1D23A998007064EE /* ImageIO.framework */; };
+		743390E11D23A9A1007064EE /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 743390E01D23A9A1007064EE /* libsqlite3.0.tbd */; };
+		743390E31D23A9AA007064EE /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743390E21D23A9AA007064EE /* MobileCoreServices.framework */; };
+		743390E51D23A9B2007064EE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743390E41D23A9B2007064EE /* Security.framework */; };
+		743390E71D23A9BB007064EE /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743390E61D23A9BB007064EE /* Social.framework */; };
+		743390EA1D23B37B007064EE /* CompleteResetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 743390E91D23B37B007064EE /* CompleteResetViewController.m */; };
+		743390EC1D23F218007064EE /* kiiapp.plist in Resources */ = {isa = PBXBuildFile; fileRef = 743390EB1D23F218007064EE /* kiiapp.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		743390C01D23A8C7007064EE /* PasswordResetTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordResetTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		743390C41D23A8C7007064EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		743390C61D23A8C7007064EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		743390C71D23A8C7007064EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		743390C91D23A8C7007064EE /* RequestResetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RequestResetViewController.h; sourceTree = "<group>"; };
+		743390CA1D23A8C7007064EE /* RequestResetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RequestResetViewController.m; sourceTree = "<group>"; };
+		743390CD1D23A8C7007064EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		743390CF1D23A8C7007064EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		743390D21D23A8C7007064EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		743390D41D23A8C7007064EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		743390DA1D23A931007064EE /* KiiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KiiSDK.framework; sourceTree = "<group>"; };
+		743390DC1D23A991007064EE /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		743390DE1D23A998007064EE /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		743390E01D23A9A1007064EE /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		743390E21D23A9AA007064EE /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		743390E41D23A9B2007064EE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		743390E61D23A9BB007064EE /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		743390E81D23B37B007064EE /* CompleteResetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompleteResetViewController.h; sourceTree = "<group>"; };
+		743390E91D23B37B007064EE /* CompleteResetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompleteResetViewController.m; sourceTree = "<group>"; };
+		743390EB1D23F218007064EE /* kiiapp.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = kiiapp.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		743390BD1D23A8C7007064EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743390E71D23A9BB007064EE /* Social.framework in Frameworks */,
+				743390E51D23A9B2007064EE /* Security.framework in Frameworks */,
+				743390E31D23A9AA007064EE /* MobileCoreServices.framework in Frameworks */,
+				743390E11D23A9A1007064EE /* libsqlite3.0.tbd in Frameworks */,
+				743390DF1D23A998007064EE /* ImageIO.framework in Frameworks */,
+				743390DD1D23A991007064EE /* Accounts.framework in Frameworks */,
+				743390DB1D23A931007064EE /* KiiSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		743390B71D23A8C7007064EE = {
+			isa = PBXGroup;
+			children = (
+				743390E61D23A9BB007064EE /* Social.framework */,
+				743390E41D23A9B2007064EE /* Security.framework */,
+				743390E21D23A9AA007064EE /* MobileCoreServices.framework */,
+				743390E01D23A9A1007064EE /* libsqlite3.0.tbd */,
+				743390DE1D23A998007064EE /* ImageIO.framework */,
+				743390DC1D23A991007064EE /* Accounts.framework */,
+				743390C21D23A8C7007064EE /* PasswordResetTest */,
+				743390C11D23A8C7007064EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		743390C11D23A8C7007064EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				743390C01D23A8C7007064EE /* PasswordResetTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		743390C21D23A8C7007064EE /* PasswordResetTest */ = {
+			isa = PBXGroup;
+			children = (
+				743390DA1D23A931007064EE /* KiiSDK.framework */,
+				743390C61D23A8C7007064EE /* AppDelegate.h */,
+				743390C71D23A8C7007064EE /* AppDelegate.m */,
+				743390C91D23A8C7007064EE /* RequestResetViewController.h */,
+				743390CA1D23A8C7007064EE /* RequestResetViewController.m */,
+				743390CC1D23A8C7007064EE /* Main.storyboard */,
+				743390CF1D23A8C7007064EE /* Assets.xcassets */,
+				743390D11D23A8C7007064EE /* LaunchScreen.storyboard */,
+				743390D41D23A8C7007064EE /* Info.plist */,
+				743390C31D23A8C7007064EE /* Supporting Files */,
+				743390E81D23B37B007064EE /* CompleteResetViewController.h */,
+				743390E91D23B37B007064EE /* CompleteResetViewController.m */,
+				743390EB1D23F218007064EE /* kiiapp.plist */,
+			);
+			path = PasswordResetTest;
+			sourceTree = "<group>";
+		};
+		743390C31D23A8C7007064EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				743390C41D23A8C7007064EE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		743390BF1D23A8C7007064EE /* PasswordResetTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 743390D71D23A8C7007064EE /* Build configuration list for PBXNativeTarget "PasswordResetTest" */;
+			buildPhases = (
+				743390BC1D23A8C7007064EE /* Sources */,
+				743390BD1D23A8C7007064EE /* Frameworks */,
+				743390BE1D23A8C7007064EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordResetTest;
+			productName = PasswordResetTest;
+			productReference = 743390C01D23A8C7007064EE /* PasswordResetTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		743390B81D23A8C7007064EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Kii;
+				TargetAttributes = {
+					743390BF1D23A8C7007064EE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 743390BB1D23A8C7007064EE /* Build configuration list for PBXProject "PasswordResetTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 743390B71D23A8C7007064EE;
+			productRefGroup = 743390C11D23A8C7007064EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				743390BF1D23A8C7007064EE /* PasswordResetTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		743390BE1D23A8C7007064EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743390D31D23A8C7007064EE /* LaunchScreen.storyboard in Resources */,
+				743390D01D23A8C7007064EE /* Assets.xcassets in Resources */,
+				743390EC1D23F218007064EE /* kiiapp.plist in Resources */,
+				743390CE1D23A8C7007064EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		743390BC1D23A8C7007064EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743390CB1D23A8C7007064EE /* RequestResetViewController.m in Sources */,
+				743390C81D23A8C7007064EE /* AppDelegate.m in Sources */,
+				743390C51D23A8C7007064EE /* main.m in Sources */,
+				743390EA1D23B37B007064EE /* CompleteResetViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		743390CC1D23A8C7007064EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				743390CD1D23A8C7007064EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		743390D11D23A8C7007064EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				743390D21D23A8C7007064EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		743390D51D23A8C7007064EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		743390D61D23A8C7007064EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		743390D81D23A8C7007064EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PasswordResetTest",
+				);
+				INFOPLIST_FILE = PasswordResetTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = Kii.PasswordResetTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		743390D91D23A8C7007064EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PasswordResetTest",
+				);
+				INFOPLIST_FILE = PasswordResetTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = Kii.PasswordResetTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		743390BB1D23A8C7007064EE /* Build configuration list for PBXProject "PasswordResetTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743390D51D23A8C7007064EE /* Debug */,
+				743390D61D23A8C7007064EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		743390D71D23A8C7007064EE /* Build configuration list for PBXNativeTarget "PasswordResetTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743390D81D23A8C7007064EE /* Debug */,
+				743390D91D23A8C7007064EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 743390B81D23A8C7007064EE /* Project object */;
+}

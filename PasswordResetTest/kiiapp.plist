@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>app-host</key>
+	<string>__app-host__</string>
+	<key>app-key</key>
+	<string>__app-key__</string>
+	<key>app-id</key>
+	<string>__app-id__</string>
+</dict>
+</plist>
