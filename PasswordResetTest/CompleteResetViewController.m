@@ -28,9 +28,14 @@
 - (IBAction)onCompleteReset:(id)sender {
     NSString* pinCode = _pinCodeText.text;
     NSString* password = _passwordText.text;
+    if ([password isEqualToString:@""]) {
+        // To Test nil.
+        password = nil;
+    }
     //[KiiUser completeResetPassword:self.userIdentifier pinCode:pinCode password:nil block:^(NSError * _Nullable error) {
     [KiiUser completeResetPassword:@"0f2968a00022-a539-6e11-2dd3-04861df6"
-                           pinCode:pinCode password:password
+                           pinCode:pinCode
+                          password:password
                              block:^(NSError * _Nullable error) {
         UIAlertController* alert;
         if (error != nil) {
