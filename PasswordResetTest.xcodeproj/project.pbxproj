@@ -13,6 +13,7 @@
 		743390CE1D23A8C7007064EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743390CC1D23A8C7007064EE /* Main.storyboard */; };
 		743390D01D23A8C7007064EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743390CF1D23A8C7007064EE /* Assets.xcassets */; };
 		743390D31D23A8C7007064EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743390D11D23A8C7007064EE /* LaunchScreen.storyboard */; };
+		743390DB1D23A931007064EE /* KiiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 743390DA1D23A931007064EE /* KiiSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		743390CF1D23A8C7007064EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		743390D21D23A8C7007064EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		743390D41D23A8C7007064EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		743390DA1D23A931007064EE /* KiiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KiiSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743390DB1D23A931007064EE /* KiiSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +61,7 @@
 		743390C21D23A8C7007064EE /* PasswordResetTest */ = {
 			isa = PBXGroup;
 			children = (
+				743390DA1D23A931007064EE /* KiiSDK.framework */,
 				743390C61D23A8C7007064EE /* AppDelegate.h */,
 				743390C71D23A8C7007064EE /* AppDelegate.m */,
 				743390C91D23A8C7007064EE /* ViewController.h */,
@@ -265,6 +269,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PasswordResetTest",
+				);
 				INFOPLIST_FILE = PasswordResetTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Kii.PasswordResetTest;
@@ -276,6 +284,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PasswordResetTest",
+				);
 				INFOPLIST_FILE = PasswordResetTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Kii.PasswordResetTest;
