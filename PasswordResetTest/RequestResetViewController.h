@@ -10,6 +10,4 @@
 @interface ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UITextField *userIdentifierText;
-@property (weak, nonatomic) IBOutlet UISegmentedControl *identifierTypeSelector;
-
 @end

@@ -25,22 +25,6 @@
 
 - (IBAction)onRequestReset:(id)sender {
     NSString* userIdentifier = self.userIdentifierText.text;
-    NSString* identifierType = @"";
-    NSInteger selected = self.identifierTypeSelector.selectedSegmentIndex;
-    switch(selected) {
-        case 0: // ID
-            identifierType = @"";
-            break;
-        case 1: // Email
-            identifierType = @"EMAIL";
-            break;
-        case 2: // Phone
-            identifierType = @"PHONE";
-            break;
-        default:
-            break;
-    }
-    userIdentifier = [NSString stringWithFormat:@"%@:%@",identifierType, userIdentifier];
     self.userIdentifier = userIdentifier;
     [KiiUser resetPassword:userIdentifier notificationMethod:KiiSMS_PIN block:^(NSError * _Nullable error) {
         if (error == nil) {
