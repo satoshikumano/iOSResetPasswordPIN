@@ -32,8 +32,8 @@
         // To Test nil.
         password = nil;
     }
-    //[KiiUser completeResetPassword:self.userIdentifier pinCode:pinCode password:nil block:^(NSError * _Nullable error) {
-    [KiiUser completeResetPassword:@"0f2968a00022-a539-6e11-2dd3-04861df6"
+
+    [KiiUser completeResetPassword:self.userIdentifier
                            pinCode:pinCode
                           password:password
                              block:^(NSError * _Nullable error) {
